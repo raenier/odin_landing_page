@@ -1,0 +1,170 @@
+* {
+    font-family: 'Arial';
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+.flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-column-wrap {
+    flex-flow: column wrap; 
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-self-end {
+    align-self: flex-end;
+}
+
+.gap-4 {
+    gap: 40px;
+}
+
+.fb-1 {
+    flex-basis: 3;
+}
+
+.mr-auto {
+    margin-right: auto;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.pb-4 {
+    padding-bottom: 40px;
+}
+
+.pt-2 {
+    padding-top: 20px;
+}
+
+.pt-4 {
+    padding-top: 40px;
+}
+
+.p-3 {
+    padding: 30px 80px;
+}
+
+.p-6 {
+    padding: 60px 160px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+nav ul {
+    list-style-type: none;  
+    padding: 0;
+    color: #F9FAF8;
+    font-size: 24px;
+    gap: 10px;
+}
+
+nav {
+    background-color: #1F2937;
+}
+
+.main-image {
+    height: auto;
+    width: 350px;
+}
+
+.blue-box {
+    border: 2px solid #3882F6;
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+}
+
+.box-desc {
+    width: 150px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.information-header-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signup {
+    background-color: #3882F6;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color:  #E5E7EB;
+    border: 0;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: #E5E7EB;
+}
+
+.cta-button {]
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 1px solid #E5E7EB;
+    color: #35E7EB;
+    background-color: #3882f6;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
